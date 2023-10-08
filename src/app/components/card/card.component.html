@@ -1,12 +1,27 @@
 
 
-<div class="card">
+<div class="card m-2">
   <img [src]="monster.image" class="card-img-top" alt="...">
+     <!-- {{monster.dlc}} if dlc show DLC if not No DLC -->
+     <div *ngIf="monster.dlc">
+        <span class="badge bg-warning text-dark">DLC</span>
+      </div>
+      <div *ngIf="!monster.dlc">
+        <span class="badge bg-success">No DLC</span>
+      </div>
   <div class="card-body">
     <h5 class="card-title">{{ monster.name }}</h5>
-    <p class="card-text">{{ monster.description }}</p>
+    <p class="text-muted">{{ monster.description }}</p>
   </div>
+  <!-- locations -->
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" *ngFor="let location of monster.common_locations">
+      <strong>&bull; </strong>{{ location }}
+    </li>
+  </ul>
+
 </div>
+
 
 
 
