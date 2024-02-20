@@ -38,7 +38,7 @@ A live demo of this project is available at [Demo Link](#).
 
 ## Screenshots
 
-![Screenshot 1](/screenshots/screenshot1.png)
+![Screenshot 1](/screenshot1.png)
 
 ## License
 
