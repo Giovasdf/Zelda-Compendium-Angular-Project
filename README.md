@@ -1,27 +1,45 @@
-# AngularPublico
+# Zelda Compendium Angular Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+This project is part of my portfolio and showcases my skills in Angular development. It is an Angular application that utilizes the Zelda Compendium API to provide information about various elements from the Zelda universe. The application includes a search feature that allows users to easily find information about their favorite Zelda characters, items, locations, and more.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Utilizes the Zelda Compendium API to fetch data about Zelda universe elements.
+- Includes a search functionality to quickly find specific information.
+- Provides detailed information and descriptions for characters, items, locations, and more.
+- Offers a user-friendly interface for easy navigation and exploration.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: Frontend framework used for building the user interface.
+- TypeScript: Programming language used for Angular development.
+- HTML/CSS: Markup and styling languages for designing the application's UI.
+- Zelda Compendium API: External API used to fetch data about Zelda universe elements.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run this project locally, follow these steps:
 
-## Running unit tests
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies by running `npm install`.
+4. Start the development server by running `ng serve`.
+5. Open your browser and visit `http://localhost:4200` to view the application.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Usage
 
-## Running end-to-end tests
+- Upon opening the application, you'll be greeted with a search bar.
+- Enter your query in the search bar to find information about specific Zelda universe elements.
+- Browse through the search results and click on an item to view its detailed information.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Demo
 
-## Further help
+A live demo of this project is available at [Demo Link](#).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Screenshots
+
+![Screenshot 1](/screenshots/screenshot1.png)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
